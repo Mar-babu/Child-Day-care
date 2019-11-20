@@ -1,0 +1,65 @@
+create table child
+(
+id_child INT (20),
+fname varchar (40),
+lname varchar (40),
+gender varchar (40),
+dob varchar (40),
+doe varchar (40),
+sponsored_by varchar (40),
+sponsored_type varchar (40),
+term varchar (40),
+adopted_by varchar (40),
+education varchar (40),
+school varchar (40),
+medical_issue varchar (40),
+diseasase varchar (40),
+suffering_since varchar (40),
+current_history varchar (40),
+dod varchar (20),
+hospital_name varchar (20),
+primary key (id_child)
+)
+
+
+create table families
+(
+id_families INT (20),
+fname varchar (40),
+lname varchar (40),
+gender varchar (40),
+dob varchar (40),
+doe varchar (40),
+sponsored varchar (40),
+donation_amount varchar (40),
+count_of_kids_adopted varchar (40),
+short_term_plan varchar (40),
+long_term_plan varchar (40),
+term_duration varchar (40),
+education varchar (40),
+medical varchar (40),
+primary key (id_families)
+)
+
+
+
+
+
+
+create table staff
+(
+id_staff INT (20),
+fname varchar (40),
+lname varchar (40),
+gender varchar (40),
+email varchar (40),
+contact varchar (40),
+dob varchar (40),
+doj varchar (40),
+child_count varchar (40),
+long_term_plan varchar (40),
+term_duration varchar (40),
+education varchar (40),
+medical varchar (40),
+primary key (id_staff)
+)

@@ -1,0 +1,17 @@
+*{margin:0px;padding: 0px;outline: 0px;}
+body{
+	background-color: skyblue;
+	width: 990px;
+	padding: 0px;
+}
+
+.top-nav{
+	padding: 20px 0;
+}
+.logo-img{
+	max-height: 80px;
+}
+.background-image{
+
+}
+

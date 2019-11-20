@@ -1,0 +1,28 @@
+body{
+	background-color: 29B9BB;
+	width: 990px;
+	padding: 0px;
+}
+
+.top-nav{
+	padding: 20px 0;
+}
+.logo-im{
+	max-height: 80px;
+}
+.background-image{
+
+}
+.btn-outline-secondary {
+    color: #6c757d;
+    background-color: #FF9800;
+    background-image: none;
+    border-color: #6c757d;
+    margin-top: 35px;
+    margin-left: 824px;
+
+.h3, h3 {
+    font-size: 1.75rem;
+    margin-left: 32px;
+    color: green;
+}
